@@ -151,11 +151,11 @@
 }
 
 .movie-rating {
-    color: #ffd700; /* Gold color for ratings */
+    color: #ffd700; 
     font-weight: 600;
 }
 
-/* Update existing hobby card to accommodate music links */
+
 .hobby-card {
     position: relative;
     background-color: var(--card-bg);
@@ -181,7 +181,7 @@
     margin-bottom: 1rem;
 }
 
-/* Responsive adjustments for movies grid */
+
 @media (max-width: 768px) {
     .movies-grid {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -203,7 +203,7 @@
     }
 }
 
-/* Update navigation for new sections */
+
 .nav-links {
     display: flex;
     gap: 2rem;
@@ -221,7 +221,7 @@
     }
 }
 
-/* Update footer links */
+
 .footer-links {
     display: flex;
     gap: 1.5rem;
