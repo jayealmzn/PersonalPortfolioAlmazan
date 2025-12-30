@@ -3,141 +3,290 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>James Edward - Portfolio</title>
+    <title>James Edward - IT Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <h1>James Edward Almazan</h1>
-            <p class="subtitle">BS Information Technology Student</p>
-            <p class="intro">First Year | BS Info 1A</p>
-            <div class="divider"></div>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="brand-icon"><i class="fas fa-code"></i></span>
+                <span class="brand-text">James Edward</span>
+            </div>
+            <div class="nav-links">
+                <a href="#about"><i class="fas fa-user"></i> About</a>
+                <a href="#projects"><i class="fas fa-code-branch"></i> Projects</a>
+                <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">James Edward Almazan</h1>
+                <p class="hero-subtitle">BS Information Technology Student</p>
+                <p class="hero-description">First Year | BS Info 1A | Aspiring IT Professional</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-avatar">
+                <img src="Almazan.jpg" alt="James Edward Almazan" class="avatar">
+            </div>
         </div>
     </header>
 
-    <main>
-        <section class="about-section">
+    <main class="main-content">
+        <section id="about" class="section about-section">
             <div class="container">
-                <div class="profile-container">
-                    <img src="Almazan.jpg" alt="James Edward Almazan" class="profile-pic">
+                <h2 class="section-title"><i class="fas fa-user"></i> About Me</h2>
+                <div class="about-container">
                     <div class="about-text">
-                        <h2><i class="fas fa-user"></i> About Me</h2>
-                        <p>Greetings! I'm James Edward Almazan, an 18-year-old aspiring IT professional currently residing in Los Baños, Laguna. I'm excited about my journey as a BSIT student and eager to learn and grow in the field of technology.</p>
-                        <div class="info-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Los Baños, Laguna</span>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-graduation-cap"></i>
-                            <span>BS Information Technology</span>
+                        <p class="about-intro">Greetings! I'm James Edward Almazan, an 18-year-old aspiring IT professional currently residing in Los Baños, Laguna. I'm excited about my journey as a BSIT student and eager to learn and grow in the field of technology.</p>
+                        
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h3>Location</h3>
+                                    <p>Los Baños, Laguna</p>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h3>Education</h3>
+                                    <p>BS Information Technology</p>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <i class="fas fa-university"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h3>University</h3>
+                                    <p>First Year Student</p>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h3>Age</h3>
+                                    <p>18 Years Old</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="hobbies-section">
+        <section class="section hobbies-section">
             <div class="container">
-                <h2><i class="fas fa-heart"></i> My Hobbies</h2>
+                <h2 class="section-title"><i class="fas fa-heart"></i> Interests & Hobbies</h2>
                 <div class="hobbies-grid">
                     <div class="hobby-card">
-                        <i class="fas fa-film"></i>
+                        <div class="hobby-icon">
+                            <i class="fas fa-film"></i>
+                        </div>
                         <h3>Watching Movies</h3>
+                        <p>Exploring different genres and cinematic techniques</p>
                     </div>
                     <div class="hobby-card">
-                        <i class="fas fa-gamepad"></i>
+                        <div class="hobby-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
                         <h3>Playing Games</h3>
+                        <p>Strategy and adventure games enthusiast</p>
                     </div>
                     <div class="hobby-card">
-                        <i class="fas fa-book-open"></i>
+                        <div class="hobby-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
                         <h3>Reading Books</h3>
+                        <p>Technology, fiction and self-improvement literature</p>
                     </div>
                     <div class="hobby-card">
-                        <i class="fas fa-music"></i>
+                        <div class="hobby-icon">
+                            <i class="fas fa-music"></i>
+                        </div>
                         <h3>Listening to Music</h3>
+                        <p>Various genres to relax and focus</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="foods-section">
+        <section class="section foods-section">
             <div class="container">
-                <h2><i class="fas fa-utensils"></i> Favorite Foods</h2>
-                <div class="food-list">
-                    <div class="food-item">
-                        <span class="food-number">1</span>
-                        <span class="food-name">Adobo</span>
+                <h2 class="section-title"><i class="fas fa-utensils"></i> Favorite Foods</h2>
+                <div class="foods-container">
+                    <div class="food-card">
+                        <span class="food-rank">01</span>
+                        <div class="food-content">
+                            <h3>Adobo</h3>
+                            <p>A classic Filipino dish with savory and tangy flavors</p>
+                        </div>
                     </div>
-                    <div class="food-item">
-                        <span class="food-number">2</span>
-                        <span class="food-name">Sinigang</span>
+                    <div class="food-card">
+                        <span class="food-rank">02</span>
+                        <div class="food-content">
+                            <h3>Sinigang</h3>
+                            <p>Sour and savory soup with vegetables and meat</p>
+                        </div>
                     </div>
-                    <div class="food-item">
-                        <span class="food-number">3</span>
-                        <span class="food-name">Tinola</span>
+                    <div class="food-card">
+                        <span class="food-rank">03</span>
+                        <div class="food-content">
+                            <h3>Tinola</h3>
+                            <p>Traditional ginger-based chicken soup</p>
+                        </div>
                     </div>
-                    <div class="food-item">
-                        <span class="food-number">4</span>
-                        <span class="food-name">Menudo</span>
+                    <div class="food-card">
+                        <span class="food-rank">04</span>
+                        <div class="food-content">
+                            <h3>Menudo</h3>
+                            <p>Hearty pork stew with vegetables and liver</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="projects-section">
+        <section id="projects" class="section projects-section">
             <div class="container">
-                <h2><i class="fas fa-code"></i> My Projects</h2>
+                <h2 class="section-title"><i class="fas fa-code"></i> My Projects</h2>
                 <div class="projects-grid">
                     <article class="project-card">
-                        <div class="project-icon">
-                            <i class="fas fa-laptop-code"></i>
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="project-tags">
+                                <span class="project-tag academic">Academic</span>
+                            </div>
                         </div>
                         <h3>ITEC 101 Project 2025</h3>
-                        <p>Basic project for ITEC 101 course</p>
-                        <span class="project-tag">Academic</span>
+                        <p>A foundational project for the ITEC 101 course, demonstrating basic programming concepts and problem-solving skills.</p>
+                        <div class="project-footer">
+                            <div class="tech-stack">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                        </div>
                     </article>
                     <article class="project-card">
-                        <div class="project-icon">
-                            <i class="fas fa-chart-line"></i>
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="project-tags">
+                                <span class="project-tag business">Business</span>
+                            </div>
                         </div>
                         <h3>Entrep Day Project 2025</h3>
-                        <p>Basic project for Entrepreneurship day</p>
-                        <span class="project-tag">Business</span>
+                        <p>A business project developed for Entrepreneurship day, focusing on market analysis and business planning.</p>
+                        <div class="project-footer">
+                            <div class="tech-stack">
+                                <span class="tech-tag">Market Research</span>
+                                <span class="tech-tag">Business Plan</span>
+                            </div>
+                        </div>
                     </article>
                     <article class="project-card">
-                        <div class="project-icon">
-                            <i class="fas fa-running"></i>
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-running"></i>
+                            </div>
+                            <div class="project-tags">
+                                <span class="project-tag education">Physical Education</span>
+                            </div>
                         </div>
                         <h3>PATHFIT Project 2025</h3>
-                        <p>Final project for PATHFIT 1</p>
-                        <span class="project-tag">Physical Education</span>
+                        <p>Final project for PATHFIT 1, demonstrating understanding of physical fitness principles and exercise planning.</p>
+                        <div class="project-footer">
+                            <div class="tech-stack">
+                                <span class="tech-tag">Fitness Planning</span>
+                                <span class="tech-tag">Exercise Science</span>
+                            </div>
+                        </div>
                     </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title"><i class="fas fa-address-book"></i> Contact Me</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <p>0907 748 6367</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>0325-0564@lspu.edu.ph</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Location</h3>
+                                <p>Los Baños, Laguna, Philippines</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <h2><i class="fas fa-address-book"></i> Contact Me</h2>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <p>0907 748 6367</p>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="footer-text">
+                        <h3>James Edward Almazan</h3>
+                        <p>BS Information Technology Student</p>
+                    </div>
                 </div>
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <p>0325-0564@lspu.edu.ph</p>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2025 James Edward Almazan. All Rights Reserved.</p>
-                <p class="portfolio-label">My Portfolio</p>
+                <p class="footer-subtext">Built with passion for technology</p>
             </div>
         </div>
     </footer>
 </body>
-
 </html>
